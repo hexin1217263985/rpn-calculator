@@ -1,0 +1,22 @@
+
+This is a simple rpn calculator.
+The core class is the com.hexin.project.rpn.calculator.RPNCalculator
+
+
+test:
+    the test directory contains basic test example, all has passed through
+
+build:
+    if you revise the source code or you just want to package again. input the package command into terminal: mvn package assembly:single
+
+ENVIRONMENT:
+ jdk8 or higher.
+
+USAGE:
+  if you use idea util, just open this as maven project, then run App's main method.
+
+  execute App.class. Then you'll go into command interface. input command to execute calculate.
+  input exit or quit can quit from the application.
+
+  Directly run the application.Under the jdk8 environment(windows, if you use linux or macos may you need repackage through the source code)
+  Under the directory of the bin. Input the following command to run: java -jar rpn-calculator-1.0.0.jar
